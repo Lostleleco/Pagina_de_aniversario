@@ -1,0 +1,39 @@
+.hero {
+    background-image: url(../images/adi-goldstein-Hli3R6LKibo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: fixed;
+    width: 100vw;  
+    height: 90vh; 
+    max-height: 90vh;
+    max-width: 100vw;
+
+    &__text {
+        color: white;
+        text-align: center;
+        justify-content: center;
+        margin-top: 150px;
+    }
+    
+    &__end {
+        display: block;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    &__data {
+        color: white;
+        text-align: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+   
+    &__button {
+        color: white;
+        text-align: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
