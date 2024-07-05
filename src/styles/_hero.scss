@@ -1,32 +1,64 @@
-// src/styles/hero.scss
 @use './variables';
 
 .hero {
   background-image: url('../images/adi-goldstein-Hli3R6LKibo-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  position: fixed;
   width: 100vw;
-  height: 90vh;
-  max-height: 90vh;
-  max-width: 100vw;
+  height: 60vh;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center; 
+  text-align: center;
 
   &__title {
-    color: variables.$primaryColor; 
-   
-    &__text {
-        color: #fff; 
-      }
+    color: variables.$destaque; 
+    margin-bottom: 50px;
   }
 }
 
-.container {
-  max-width: 960px;
-  width: 100%;
-  margin: 0 auto;
+.infos-bar__infos {
+  padding: 16px 24px;
+color: variables.$destaque;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+
+  &__item {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+
+    padding: 10px;
+    margin: 16px;
+  }
+}
+
+.event {
+  background-color: variables.$destaque; // Corrigido para a variável SCSS correta
+  padding: 0;
+  margin: 0;
+
+  &__title {
+    text-align: center;
+    color: variables.$primaryColor; 
+    padding: 16px;
+  }
+
+  &__list {
+    display: flex;
+    color: variables.$primaryColor;
+    padding: 42px;
+    text-align: center;
+    padding-top:45px;
+   
+  }
+
+  &__image {
+    width: 360px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+  }
 }
