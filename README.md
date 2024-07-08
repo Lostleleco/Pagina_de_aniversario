@@ -1,4 +1,4 @@
-Trabalho para reforçar o aprendizado do Parcel, utilizei o SCSS na estilização e sharp para minificação de imagens,
+Trabalho para reforçar o aprendizado do Parcel e responsividade, utilizei o SCSS na estilização e sharp para minificação de imagens,
 separei os estilos em componentes para aplicar a metodologia BEM e JavaScript para contagem da data de hoje ate a 
 data do meu aniversario!
 
